@@ -1,0 +1,43 @@
+with open('numar.txt','r') as f:
+    a=f.read()
+b=int(a)*1
+c=int(a)*2
+d=int(a)*3
+e=int(a)*4
+f=int(a)*5
+g=int(a)*6
+h=int(a)*7
+i=int(a)*8
+j=int(a)*9
+c=int(a)*10
+n1='1*'+str(a)+'='+str(b)
+n2='2*'+str(a)+'='+str(c)
+n3='3*'+str(a)+'='+str(d)
+n4='4*'+str(a)+'='+str(e)
+n5='5*'+str(a)+'='+str(f)
+n6='6*'+str(a)+'='+str(g)
+n7='7*'+str(a)+'='+str(h)
+n8='8*'+str(a)+'='+str(i)
+n9='9*'+str(a)+'='+str(j)
+n10='10*'+str(a)+'='+str(c)
+with open('inmultire.txt','w') as f:
+    f.write(str(n1))
+    f.write('\n')
+    f.write(str(n2))
+    f.write('\n')
+    f.write(str(n3))
+    f.write('\n')
+    f.write(str(n4))
+    f.write('\n')
+    f.write(str(n5))
+    f.write('\n')
+    f.write(str(n6))
+    f.write('\n')
+    f.write(str(n7))
+    f.write('\n')
+    f.write(str(n8))
+    f.write('\n')
+    f.write(str(n9))
+    f.write('\n')
+    f.write(str(n10))
+    
